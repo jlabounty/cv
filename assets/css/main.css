@@ -1519,7 +1519,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: center;
 			}
 
 				.row > * {
@@ -1648,6 +1648,7 @@ input, select, textarea {
 
 				.row > .col-12-xsmall {
 					width: 100%;
+					
 				}
 
 				.row > .off-12-xsmall {
@@ -2555,10 +2556,11 @@ input, select, textarea {
 
 	.work-item {
 		margin: 0 0 2em 0;
+		width: 33%;
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 .5em 0;
 		}
 
 		.work-item h3 {
